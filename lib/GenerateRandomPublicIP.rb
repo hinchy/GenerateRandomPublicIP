@@ -18,7 +18,7 @@ class GenerateRandomPublicIP
     end while (classAPrivate===randomIp || classBPrivate===randomIp || classCPrivate===randomIp || thisNetwork===randomIp || loopback===randomIp || broadcast1===randomIp || broadcast2===randomIp)
 
 
-    puts randomIp
+    return randomIp
 
   end  
 end
